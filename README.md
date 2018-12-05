@@ -1,8 +1,8 @@
 # Unicons
 
-``unicons`` is gem to help manage 42Floors icon library across multiple apps with helpers that make it quick and easy to include icons via ruby, javascript, or sass
+`unicons` is an icon library with helpers that make it quick and easy to include icons via ruby, javascript, or sass
 
-[Preview Icons](http://42floors.github.io/unicons)
+[Preview Icons](http://bemky.github.io/unicons)
 
 ## Installation
 
