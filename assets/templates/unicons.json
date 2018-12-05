@@ -1,0 +1,7 @@
+<% size = 0 %>
+{
+    "filename": "<%= @font_path_alt %>",
+    "glyphs": {<% @glyphs.each do |name, value| %><% size += 1 %>
+        "<%= name.to_s.gsub(/\s|-/, '_') %>": "<%= value[:codepoint].to_s(16) %>"<%= size == @glyphs.size ? "" : "," %><% end %>
+    }
+}

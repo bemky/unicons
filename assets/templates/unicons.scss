@@ -1,0 +1,43 @@
+//
+// Icon Font: <%= font_name %>
+//
+
+// Hardcode Fontface... was having trouble setting up for asset-pipeline
+@font-face {
+  font-family: "<%= font_name %>";
+  src: asset-url("<%= @font_path_alt %>.eot");
+  src: url("data:font/woff2;charset=utf-8;base64,<%= Base64.encode64(File.binread(File.join(@options[:output][:fonts], "#{@font_path}.woff2"))).gsub("\n", "") %>") format("woff2"),
+       asset-url("<%= @font_path_alt %>.woff2") format("woff2"),
+       asset-url("<%= @font_path_alt %>.woff") format("woff"),
+       asset-url("<%= @font_path_alt %>.ttf") format("truetype"),
+       url(asset-path("<%= @font_path_alt %>.svg") + "#<%= font_name %>") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "<%= font_name %>";
+    src: url(asset-path("<%= @font_path_alt %>.svg") + "#<%= font_name %>") format("svg");
+  }
+}
+
+$<%= font_name.gsub(/\s|_/, '-') %>:"<%= font_name %>";
+
+.unicon{
+    <%= glyph_properties %>
+} 
+
+.unicon-placeholder::placeholder{
+    <%= glyph_properties %>
+} 
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+<%= glyph_selectors %> {
+<%= glyph_properties %>
+}
+
+<%= glyphs %>
+<% @glyphs.each do |name, value| %>
+$unicon-<%= name.to_s.gsub(/\s|_/, '-') %>: "\<%= value[:codepoint].to_s(16) %>";<% end %>

@@ -1,0 +1,55 @@
+# --------------------------------------------------------------------------- #
+# Project Info
+#   Defaults shown. Learn more about these options by running
+#   `fontcustom help` or visiting <http://fontcustom.com>.
+# --------------------------------------------------------------------------- #
+
+font_name: unicons
+font_design_size: 16
+font_em: 512
+font_ascent: 448
+font_descent: 64
+css_selector: .unicon-{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: true
+force: false
+debug: false
+quiet: false
+
+
+# --------------------------------------------------------------------------- #
+# Input Paths
+# --------------------------------------------------------------------------- #
+
+input:
+  vectors: assets/vectors         # required
+  templates: assets/templates
+
+
+# --------------------------------------------------------------------------- #
+# Output Paths
+# --------------------------------------------------------------------------- #
+
+output:
+  fonts:          app/assets/fonts                              # required
+  css:            app/assets/stylesheets
+  index.html:     ./
+  unicons.js:   app/assets/javascripts
+  unicons.json: app/assets/fonts
+  #my-custom-template.yml: path/to/template/output
+
+
+# --------------------------------------------------------------------------- #
+# Templates
+#   Included in Font Custom: preview, css, scss, scss-rails
+#   Custom templates should be saved in the INPUT[:templates] directory and
+#   referenced by their baserame.
+# --------------------------------------------------------------------------- #
+
+templates:
+ - unicons.scss
+ - unicons.js
+ - unicons.json
+ - index.html
+ #- my-custom-template.yml
