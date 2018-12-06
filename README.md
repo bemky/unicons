@@ -83,7 +83,10 @@ Supports most browsers and IE9+, if you need older browser support include https
 
 
 ##For Development
+
 ###Installation
+Check `fontcustom` readme: https://github.com/FontCustom/fontcustom
+
     brew install fontforge ttfautohint
 
 ###Compile
