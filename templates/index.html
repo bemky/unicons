@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unicons</title>
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/unicons.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/uniform.css" media="screen">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"></script>
+    <script src="/assets/javascripts/uniform.js" type="text/javascript"></script>
+    <style>
+    
+    body {
+        color: #3d4852;
+        line-height: 1.5;
+        font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+        "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+        "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+        "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    }
+    </style>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.uniformTooltip').uniformTooltip();
+        $('.uniformDropdown').uniformDropdown();
+        $('.change-font-size').click(function(){
+            var diff = $(this).hasClass('-add') ? 2 : -2;
+            $('.icon').css('font-size', parseInt($('.icon').css('font-size')) + diff + "px");
+            var wrapperSize = parseInt($('.icon-wrapper').css('width')) + diff + "px";
+            $('.icon-wrapper').css('width', wrapperSize);
+            $('.icon-wrapper').css('height', wrapperSize);
+        })
+    });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center margin-v-4x">
+            <img src="/assets/images/unicons.png" width="344" height="69" title="Unicons"><br>
+            <a href="https://github.com/bemky/unicons" class="uniformButton -large -green">View on GitHub</a>
+        </div>
+
+        <div class="text-center margin-v">
+            <strong>Change Size: &nbsp;&nbsp;</strong>
+            <button class="uniformButton change-font-size">
+                <span style="font-size: 1.4em">-</span>
+            </button>
+            <button class="uniformButton change-font-size -add">
+                <span style="font-size: 1.4em">+</span>
+            </button>
+        </div>
+        <div class="grid grid-gutter-half">
+            <% @glyphs.each do |name, value|
+            selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="<%= name.to_s %>" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-<%= name.to_s %>">
+                        <i id="<%= selector[1..-1] %>" class="<%= selector[1..-1].gsub('.', ' ') %> icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-<%= name.to_s %>">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value="<%= selector %>" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#x<%= value[:codepoint].to_s(16) %>;" />
+                    </div>
+                </div>
+            </div>
+            <% end %>
+        </div>
+    </div>
+</body>
+</html>

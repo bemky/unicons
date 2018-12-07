@@ -1,0 +1,1969 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unicons</title>
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/unicons.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/uniform.css" media="screen">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"></script>
+    <script src="/assets/javascripts/uniform.js" type="text/javascript"></script>
+    <style>
+    
+    body {
+        color: #3d4852;
+        line-height: 1.5;
+        font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+        "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+        "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+        "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    }
+    </style>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.uniformTooltip').uniformTooltip();
+        $('.uniformDropdown').uniformDropdown();
+        $('.change-font-size').click(function(){
+            var diff = $(this).hasClass('-add') ? 2 : -2;
+            $('.icon').css('font-size', parseInt($('.icon').css('font-size')) + diff + "px");
+            var wrapperSize = parseInt($('.icon-wrapper').css('width')) + diff + "px";
+            $('.icon-wrapper').css('width', wrapperSize);
+            $('.icon-wrapper').css('height', wrapperSize);
+        })
+    });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center margin-v-4x">
+            <img src="/assets/images/unicons.png" width="344" height="69" title="Unicons"><br>
+            <a href="https://github.com/bemky/unicons" class="uniformButton -large -green">View on GitHub</a>
+        </div>
+
+        <div class="text-center margin-v">
+            <strong>Change Size: &nbsp;&nbsp;</strong>
+            <button class="uniformButton change-font-size">
+                <span style="font-size: 1.4em">-</span>
+            </button>
+            <button class="uniformButton change-font-size -add">
+                <span style="font-size: 1.4em">+</span>
+            </button>
+        </div>
+        <div class="grid grid-gutter-half">
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="add" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-add">
+                        <i id="unicon-add" class="unicon-add icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-add">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-add" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf100;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="add_outline" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-add_outline">
+                        <i id="unicon-add_outline" class="unicon-add_outline icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-add_outline">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-add_outline" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf101;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="agent" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-agent">
+                        <i id="unicon-agent" class="unicon-agent icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-agent">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-agent" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="alert" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-alert">
+                        <i id="unicon-alert" class="unicon-alert icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-alert">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-alert" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="alert_outline" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-alert_outline">
+                        <i id="unicon-alert_outline" class="unicon-alert_outline icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-alert_outline">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-alert_outline" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf104;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="archive" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-archive">
+                        <i id="unicon-archive" class="unicon-archive icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-archive">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-archive" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf105;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow-down" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow-down">
+                        <i id="unicon-arrow-down" class="unicon-arrow-down icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow-down">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow-down" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf106;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow-left" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow-left">
+                        <i id="unicon-arrow-left" class="unicon-arrow-left icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow-left">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow-left" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow-right" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow-right">
+                        <i id="unicon-arrow-right" class="unicon-arrow-right icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow-right">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow-right" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf108;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow-up" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow-up">
+                        <i id="unicon-arrow-up" class="unicon-arrow-up icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow-up">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow-up" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf109;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow_down_large" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow_down_large">
+                        <i id="unicon-arrow_down_large" class="unicon-arrow_down_large icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow_down_large">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow_down_large" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow_left_large" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow_left_large">
+                        <i id="unicon-arrow_left_large" class="unicon-arrow_left_large icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow_left_large">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow_left_large" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow_right_large" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow_right_large">
+                        <i id="unicon-arrow_right_large" class="unicon-arrow_right_large icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow_right_large">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow_right_large" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="arrow_up_large" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-arrow_up_large">
+                        <i id="unicon-arrow_up_large" class="unicon-arrow_up_large icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-arrow_up_large">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-arrow_up_large" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10d;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="attachment" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-attachment">
+                        <i id="unicon-attachment" class="unicon-attachment icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-attachment">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-attachment" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10e;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="bell" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-bell">
+                        <i id="unicon-bell" class="unicon-bell icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-bell">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-bell" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="browser" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-browser">
+                        <i id="unicon-browser" class="unicon-browser icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-browser">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-browser" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf110;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="building" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-building">
+                        <i id="unicon-building" class="unicon-building icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-building">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-building" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf111;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="building_list" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-building_list">
+                        <i id="unicon-building_list" class="unicon-building_list icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-building_list">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-building_list" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf112;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="buildings" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-buildings">
+                        <i id="unicon-buildings" class="unicon-buildings icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-buildings">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-buildings" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf113;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="calendar" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-calendar">
+                        <i id="unicon-calendar" class="unicon-calendar icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-calendar">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-calendar" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf114;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="camera" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-camera">
+                        <i id="unicon-camera" class="unicon-camera icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-camera">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-camera" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf115;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="caret-down" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-caret-down">
+                        <i id="unicon-caret-down" class="unicon-caret-down icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-caret-down">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-caret-down" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf116;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="caret-left" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-caret-left">
+                        <i id="unicon-caret-left" class="unicon-caret-left icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-caret-left">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-caret-left" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf117;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="caret-right" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-caret-right">
+                        <i id="unicon-caret-right" class="unicon-caret-right icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-caret-right">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-caret-right" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf118;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="caret-up" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-caret-up">
+                        <i id="unicon-caret-up" class="unicon-caret-up icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-caret-up">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-caret-up" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf119;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="chair" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-chair">
+                        <i id="unicon-chair" class="unicon-chair icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-chair">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-chair" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="chat2" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-chat2">
+                        <i id="unicon-chat2" class="unicon-chat2 icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-chat2">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-chat2" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="check" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-check">
+                        <i id="unicon-check" class="unicon-check icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-check">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-check" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="check_outline" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-check_outline">
+                        <i id="unicon-check_outline" class="unicon-check_outline icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-check_outline">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-check_outline" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11d;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="clock" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-clock">
+                        <i id="unicon-clock" class="unicon-clock icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-clock">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-clock" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="comment" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-comment">
+                        <i id="unicon-comment" class="unicon-comment icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-comment">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-comment" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf120;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="cone" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-cone">
+                        <i id="unicon-cone" class="unicon-cone icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-cone">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-cone" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf121;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="contract" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-contract">
+                        <i id="unicon-contract" class="unicon-contract icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-contract">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-contract" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf122;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="conversation" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-conversation">
+                        <i id="unicon-conversation" class="unicon-conversation icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-conversation">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-conversation" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf123;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="copy" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-copy">
+                        <i id="unicon-copy" class="unicon-copy icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-copy">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-copy" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf124;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="crowd" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-crowd">
+                        <i id="unicon-crowd" class="unicon-crowd icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-crowd">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-crowd" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf125;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="dot" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-dot">
+                        <i id="unicon-dot" class="unicon-dot icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-dot">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-dot" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf127;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="dots" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-dots">
+                        <i id="unicon-dots" class="unicon-dots icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-dots">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-dots" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf128;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="download" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-download">
+                        <i id="unicon-download" class="unicon-download icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-download">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-download" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf129;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="ellipsis" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-ellipsis">
+                        <i id="unicon-ellipsis" class="unicon-ellipsis icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-ellipsis">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-ellipsis" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf12a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="entry" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-entry">
+                        <i id="unicon-entry" class="unicon-entry icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-entry">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-entry" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf12b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="export" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-export">
+                        <i id="unicon-export" class="unicon-export icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-export">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-export" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf12c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="facebook" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-facebook">
+                        <i id="unicon-facebook" class="unicon-facebook icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-facebook">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-facebook" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf12d;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="fire" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-fire">
+                        <i id="unicon-fire" class="unicon-fire icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-fire">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-fire" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf12e;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="fish_bones" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-fish_bones">
+                        <i id="unicon-fish_bones" class="unicon-fish_bones icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-fish_bones">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-fish_bones" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf12f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="flag" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-flag">
+                        <i id="unicon-flag" class="unicon-flag icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-flag">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-flag" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf130;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="floorplan" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-floorplan">
+                        <i id="unicon-floorplan" class="unicon-floorplan icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-floorplan">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-floorplan" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf131;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="flyer" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-flyer">
+                        <i id="unicon-flyer" class="unicon-flyer icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-flyer">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-flyer" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf132;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="for_sale" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-for_sale">
+                        <i id="unicon-for_sale" class="unicon-for_sale icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-for_sale">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-for_sale" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf133;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="forty_two" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-forty_two">
+                        <i id="unicon-forty_two" class="unicon-forty_two icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-forty_two">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-forty_two" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf134;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="gauge" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-gauge">
+                        <i id="unicon-gauge" class="unicon-gauge icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-gauge">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-gauge" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf135;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="gear" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-gear">
+                        <i id="unicon-gear" class="unicon-gear icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-gear">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-gear" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf136;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="ghost" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-ghost">
+                        <i id="unicon-ghost" class="unicon-ghost icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-ghost">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-ghost" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf137;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="happy" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-happy">
+                        <i id="unicon-happy" class="unicon-happy icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-happy">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-happy" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf13c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="hidden" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-hidden">
+                        <i id="unicon-hidden" class="unicon-hidden icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-hidden">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-hidden" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf13d;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="history" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-history">
+                        <i id="unicon-history" class="unicon-history icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-history">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-history" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf13e;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="info" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-info">
+                        <i id="unicon-info" class="unicon-info icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-info">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-info" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf140;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="info_bubble" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-info_bubble">
+                        <i id="unicon-info_bubble" class="unicon-info_bubble icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-info_bubble">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-info_bubble" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf141;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="iron_man" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-iron_man">
+                        <i id="unicon-iron_man" class="unicon-iron_man icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-iron_man">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-iron_man" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf142;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="leaf" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-leaf">
+                        <i id="unicon-leaf" class="unicon-leaf icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-leaf">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-leaf" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf144;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="lightbulb" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-lightbulb">
+                        <i id="unicon-lightbulb" class="unicon-lightbulb icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-lightbulb">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-lightbulb" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf146;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="lightning" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-lightning">
+                        <i id="unicon-lightning" class="unicon-lightning icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-lightning">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-lightning" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf147;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="line-chat" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-line-chat">
+                        <i id="unicon-line-chat" class="unicon-line-chat icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-line-chat">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-line-chat" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf148;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="line-clock" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-line-clock">
+                        <i id="unicon-line-clock" class="unicon-line-clock icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-line-clock">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-line-clock" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf149;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="link" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-link">
+                        <i id="unicon-link" class="unicon-link icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-link">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-link" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf14a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="linkedin" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-linkedin">
+                        <i id="unicon-linkedin" class="unicon-linkedin icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-linkedin">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-linkedin" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf14b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="list" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-list">
+                        <i id="unicon-list" class="unicon-list icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-list">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-list" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf14c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="list_solid" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-list_solid">
+                        <i id="unicon-list_solid" class="unicon-list_solid icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-list_solid">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-list_solid" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf14d;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="listings" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-listings">
+                        <i id="unicon-listings" class="unicon-listings icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-listings">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-listings" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf14e;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="lock" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-lock">
+                        <i id="unicon-lock" class="unicon-lock icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-lock">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-lock" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf14f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="loop" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-loop">
+                        <i id="unicon-loop" class="unicon-loop icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-loop">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-loop" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf150;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="magic" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-magic">
+                        <i id="unicon-magic" class="unicon-magic icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-magic">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-magic" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf151;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="mail" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-mail">
+                        <i id="unicon-mail" class="unicon-mail icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-mail">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-mail" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf152;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="map" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-map">
+                        <i id="unicon-map" class="unicon-map icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-map">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-map" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf153;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="markdown" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-markdown">
+                        <i id="unicon-markdown" class="unicon-markdown icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-markdown">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-markdown" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf154;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="marker" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-marker">
+                        <i id="unicon-marker" class="unicon-marker icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-marker">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-marker" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf155;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="merge" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-merge">
+                        <i id="unicon-merge" class="unicon-merge icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-merge">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-merge" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf156;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="mobile" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-mobile">
+                        <i id="unicon-mobile" class="unicon-mobile icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-mobile">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-mobile" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf157;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="move" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-move">
+                        <i id="unicon-move" class="unicon-move icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-move">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-move" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf159;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="neutral" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-neutral">
+                        <i id="unicon-neutral" class="unicon-neutral icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-neutral">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-neutral" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf15a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="no" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-no">
+                        <i id="unicon-no" class="unicon-no icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-no">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-no" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf15b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="not_available" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-not_available">
+                        <i id="unicon-not_available" class="unicon-not_available icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-not_available">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-not_available" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf15c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="pencil" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-pencil">
+                        <i id="unicon-pencil" class="unicon-pencil icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-pencil">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-pencil" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf15e;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="person" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-person">
+                        <i id="unicon-person" class="unicon-person icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-person">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-person" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf15f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="persons" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-persons">
+                        <i id="unicon-persons" class="unicon-persons icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-persons">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-persons" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf161;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="phone" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-phone">
+                        <i id="unicon-phone" class="unicon-phone icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-phone">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-phone" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf163;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="picture" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-picture">
+                        <i id="unicon-picture" class="unicon-picture icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-picture">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-picture" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf164;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="pictures" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-pictures">
+                        <i id="unicon-pictures" class="unicon-pictures icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-pictures">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-pictures" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf165;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="plant" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-plant">
+                        <i id="unicon-plant" class="unicon-plant icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-plant">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-plant" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf167;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="play" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-play">
+                        <i id="unicon-play" class="unicon-play icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-play">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-play" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf168;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="question" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-question">
+                        <i id="unicon-question" class="unicon-question icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-question">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-question" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf169;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="question_bubble" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-question_bubble">
+                        <i id="unicon-question_bubble" class="unicon-question_bubble icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-question_bubble">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-question_bubble" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf16a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="recover" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-recover">
+                        <i id="unicon-recover" class="unicon-recover icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-recover">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-recover" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf16b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="remove_outline" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-remove_outline">
+                        <i id="unicon-remove_outline" class="unicon-remove_outline icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-remove_outline">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-remove_outline" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf16c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="ruler" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-ruler">
+                        <i id="unicon-ruler" class="unicon-ruler icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-ruler">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-ruler" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf16f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="sad" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-sad">
+                        <i id="unicon-sad" class="unicon-sad icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-sad">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-sad" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf170;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="search" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-search">
+                        <i id="unicon-search" class="unicon-search icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-search">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-search" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf171;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="search_list" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-search_list">
+                        <i id="unicon-search_list" class="unicon-search_list icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-search_list">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-search_list" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf172;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="shield" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-shield">
+                        <i id="unicon-shield" class="unicon-shield icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-shield">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-shield" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf174;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="shredder" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-shredder">
+                        <i id="unicon-shredder" class="unicon-shredder icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-shredder">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-shredder" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf175;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="spinner" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-spinner">
+                        <i id="unicon-spinner" class="unicon-spinner icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-spinner">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-spinner" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf177;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="star" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-star">
+                        <i id="unicon-star" class="unicon-star icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-star">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-star" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf179;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="star_empty" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-star_empty">
+                        <i id="unicon-star_empty" class="unicon-star_empty icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-star_empty">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-star_empty" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf17a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="star_half" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-star_half">
+                        <i id="unicon-star_half" class="unicon-star_half icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-star_half">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-star_half" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf17b;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="star_list" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-star_list">
+                        <i id="unicon-star_list" class="unicon-star_list icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-star_list">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-star_list" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf17c;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="success" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-success">
+                        <i id="unicon-success" class="unicon-success icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-success">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-success" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf17f;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="tag" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-tag">
+                        <i id="unicon-tag" class="unicon-tag icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-tag">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-tag" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf180;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="thumbs-down" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-thumbs-down">
+                        <i id="unicon-thumbs-down" class="unicon-thumbs-down icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-thumbs-down">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-thumbs-down" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf181;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="thumbs-up" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-thumbs-up">
+                        <i id="unicon-thumbs-up" class="unicon-thumbs-up icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-thumbs-up">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-thumbs-up" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf182;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="trash" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-trash">
+                        <i id="unicon-trash" class="unicon-trash icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-trash">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-trash" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf183;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="twitter" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-twitter">
+                        <i id="unicon-twitter" class="unicon-twitter icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-twitter">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-twitter" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf184;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="upload" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-upload">
+                        <i id="unicon-upload" class="unicon-upload icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-upload">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-upload" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf185;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="visible" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-visible">
+                        <i id="unicon-visible" class="unicon-visible icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-visible">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-visible" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf186;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="website" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-website">
+                        <i id="unicon-website" class="unicon-website icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-website">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-website" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf188;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="world" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-world">
+                        <i id="unicon-world" class="unicon-world icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-world">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-world" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf189;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="x" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-x">
+                        <i id="unicon-x" class="unicon-x icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-x">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-x" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf18a;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="zoom-in" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-zoom-in">
+                        <i id="unicon-zoom-in" class="unicon-zoom-in icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-zoom-in">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-zoom-in" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf18d;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-30-px margin-bottom">
+                <div class="bg-gray-light rounded text-center uniformTooltip icon-wrapper relative" data-tooltip-message="zoom-out" style="width:30px; height:30px; padding-top:1px; padding-bottom:1px;">
+                    <div class="preview-glyphs text-larger uniformDropdown position-center" data-dropdown-target="#dropdown-zoom-out">
+                        <i id="unicon-zoom-out" class="unicon-zoom-out icon"></i>
+                    </div>
+                </div>
+                
+                <div class="usage hide" id="dropdown-zoom-out">
+                    <div class="pad">
+                        <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".unicon-zoom-out" />
+                        <br>
+                        <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf18e;" />
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

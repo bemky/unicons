@@ -23,7 +23,6 @@ class Unicons
   end
   
   def self.entity(name)
-    
     "&#x" + (symbol(name) || symbol(:building_list)) + ";"
   end
   

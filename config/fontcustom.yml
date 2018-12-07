@@ -48,14 +48,16 @@ copyright: Ben Ehmke, 2018, under MIT license
 #     names as the key.
 # -----------------------------------------------------------------------------
 
-#input:
-#  vectors: my/vectors
-#  templates: my/templates
+input:
+ vectors: vectors
+ templates: templates
 
-#output:
-#  fonts: app/assets/fonts
-#  css: app/assets/stylesheets
-#  preview: app/views/styleguide
+output:
+ fonts: vendor/assets/fonts
+ css: vendor/assets/stylesheets
+ index.html: docs
+ unicons.js: vendor/assets/javascripts
+# preview: preview/index
 #  my-custom-template.yml: path/to/template/output
 
 
@@ -73,9 +75,13 @@ copyright: Ben Ehmke, 2018, under MIT license
 #   Default: css, preview
 # -----------------------------------------------------------------------------
 
-#templates:
-#- scss-rails
-#- preview
+templates:
+- unicons.scss
+- css
+- index.html
+- unicons.js
+- unicons.json
+# - preview
 #- my-custom-template.yml
 
 #preprocessor_path: ../fonts/
@@ -86,80 +92,16 @@ copyright: Ben Ehmke, 2018, under MIT license
 # -----------------------------------------------------------------------------
 
 # Size (in pica points) for which your font is designed.
-#font_design_size: 16
+font_design_size: 16
 
 # The em size. Setting this will scale the entire font to the given size.
-#font_em: 512
+font_em: 512
 
 # The font's ascent and descent. Used to calculate the baseline.
-#font_ascent: 448
-#font_descent: 64
-
-# Horizontally fit glyphs to their individual vector widths.
-#autowidth: false
-
-
-
-
-
-
-
-
-
-
-
-# --------------------------------------------------------------------------- #
-# Project Info
-#   Defaults shown. Learn more about these options by running
-#   `fontcustom help` or visiting <http://fontcustom.com>.
-# --------------------------------------------------------------------------- #
-
-font_name: unicons
-font_design_size: 16
-font_em: 512
 font_ascent: 448
 font_descent: 64
-css_selector: .unicon-{{glyph}}
-preprocessor_path: ""
+
+# Horizontally fit glyphs to their individual vector widths.
 autowidth: false
-no_hash: true
-force: false
-debug: false
-quiet: false
 
-
-# --------------------------------------------------------------------------- #
-# Input Paths
-# --------------------------------------------------------------------------- #
-
-input:
-  vectors: assets/vectors         # required
-  templates: assets/templates
-
-
-# --------------------------------------------------------------------------- #
-# Output Paths
-# --------------------------------------------------------------------------- #
-
-output:
-  fonts:          app/assets/fonts                              # required
-  css:            app/assets/stylesheets
-  index.html:     ./
-  unicons.js:   app/assets/javascripts
-  unicons.json: app/assets/fonts
-  #my-custom-template.yml: path/to/template/output
-
-
-# --------------------------------------------------------------------------- #
-# Templates
-#   Included in Font Custom: preview, css, scss, scss-rails
-#   Custom templates should be saved in the INPUT[:templates] directory and
-#   referenced by their baserame.
-# --------------------------------------------------------------------------- #
-
-templates:
- - unicons.scss
- - unicons.js
- - unicons.json
- - index.html
- #- my-custom-template.yml
+css_selector: .unicon-{{glyph}}
