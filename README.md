@@ -1,4 +1,14 @@
-# Unicons
+<p align="center">
+    <a href="https://bemky.github.io/unicons/" style="display:block; max-width:344px;">
+        <img src="https://raw.githubusercontent.com/bemky/unicons/master/docs/assets/images/unicons.png"width="344" height="69" alt="Unicons">
+    </a>
+    <p align="center">
+        <a href="https://bemky.github.io/unicons/">
+            Preview
+        </a>
+    </p>
+</p>
+
 
 `unicons` is an icon library with helpers that make it quick and easy to include icons via ruby, javascript, or sass
 

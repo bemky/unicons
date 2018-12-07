@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "afbf7c17021c109373be5fb2113cc8da1c8dc249a8e3f42d0cff8bd57c8d966d",
-    "current": "afbf7c17021c109373be5fb2113cc8da1c8dc249a8e3f42d0cff8bd57c8d966d"
+    "previous": "313cf1d9c8eb0f9a0950a3480ed3d4e8529c6844799e82c53b950c007a73cb72",
+    "current": "313cf1d9c8eb0f9a0950a3480ed3d4e8529c6844799e82c53b950c007a73cb72"
   },
   "fonts": [
-    "vendor/assets/fonts/unicons_afbf7c17021c109373be5fb2113cc8da.ttf",
-    "vendor/assets/fonts/unicons_afbf7c17021c109373be5fb2113cc8da.svg",
-    "vendor/assets/fonts/unicons_afbf7c17021c109373be5fb2113cc8da.woff",
-    "vendor/assets/fonts/unicons_afbf7c17021c109373be5fb2113cc8da.eot",
-    "vendor/assets/fonts/unicons_afbf7c17021c109373be5fb2113cc8da.woff2"
+    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.ttf",
+    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.svg",
+    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.woff",
+    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.eot",
+    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.woff2"
   ],
   "glyphs": {
     "add": {
