@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" xml:space="preserve">
-<polygon fill-rule="evenodd" points="35.933,1.278 28.145,1.278 25.81,10.398 38.267,10.398 "/>
-<polygon fill-rule="evenodd" points="28.145,62.707 35.933,62.707 38.267,53.587 25.81,53.587 "/>
-<polygon fill-rule="evenodd" points="62.802,35.714 62.802,27.925 53.681,25.591 53.681,38.048 "/>
-<polygon fill-rule="evenodd" points="1.373,27.925 1.373,35.714 10.494,38.048 10.494,25.591 "/>
-<polygon fill-rule="evenodd" points="13.088,7.556 7.581,13.062 12.38,21.162 21.188,12.354 "/>
-<polygon fill-rule="evenodd" points="51.018,56.498 56.525,50.992 51.726,42.893 42.918,51.7 "/>
-<polygon fill-rule="evenodd" points="56.437,12.905 50.929,7.398 42.83,12.197 51.638,21.005 "/>
-<polygon fill-rule="evenodd" points="7.493,50.835 13,56.342 21.1,51.543 12.292,42.735 "/>
-<path fill-rule="evenodd" d="M32.052,8.556c-12.848,0-23.263,10.415-23.263,23.264c0,12.848,10.416,23.263,23.263,23.263
-	s23.263-10.415,23.263-23.263C55.315,18.971,44.9,8.556,32.052,8.556z M31.994,51.507c-10.764,0-19.49-8.727-19.49-19.49
-	s8.726-19.49,19.49-19.49c10.764,0,19.49,8.727,19.49,19.49S42.757,51.507,31.994,51.507z"/>
-<circle fill-rule="evenodd" cx="31.993" cy="32.017" r="7.724"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>

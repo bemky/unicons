@@ -1,16 +1,20 @@
 {
   "checksum": {
-    "previous": "313cf1d9c8eb0f9a0950a3480ed3d4e8529c6844799e82c53b950c007a73cb72",
-    "current": "313cf1d9c8eb0f9a0950a3480ed3d4e8529c6844799e82c53b950c007a73cb72"
+    "previous": "67626906e35f7876e9fb6f5779432ced0fc9313281708f8615134daaa3cd861b",
+    "current": "67626906e35f7876e9fb6f5779432ced0fc9313281708f8615134daaa3cd861b"
   },
   "fonts": [
-    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.ttf",
-    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.svg",
-    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.woff",
-    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.eot",
-    "vendor/assets/fonts/unicons_313cf1d9c8eb0f9a0950a3480ed3d4e8.woff2"
+    "vendor/assets/fonts/unicons_67626906e35f7876e9fb6f5779432ced.ttf",
+    "vendor/assets/fonts/unicons_67626906e35f7876e9fb6f5779432ced.svg",
+    "vendor/assets/fonts/unicons_67626906e35f7876e9fb6f5779432ced.woff",
+    "vendor/assets/fonts/unicons_67626906e35f7876e9fb6f5779432ced.eot",
+    "vendor/assets/fonts/unicons_67626906e35f7876e9fb6f5779432ced.woff2"
   ],
   "glyphs": {
+    "activity": {
+      "codepoint": 61839,
+      "source": "vectors/activity.svg"
+    },
     "add": {
       "codepoint": 61696,
       "source": "vectors/add.svg"
@@ -19,17 +23,13 @@
       "codepoint": 61697,
       "source": "vectors/add_outline.svg"
     },
-    "agent": {
-      "codepoint": 61698,
-      "source": "vectors/agent.svg"
+    "alert_circle": {
+      "codepoint": 61840,
+      "source": "vectors/alert_circle.svg"
     },
-    "alert": {
-      "codepoint": 61699,
-      "source": "vectors/alert.svg"
-    },
-    "alert_outline": {
-      "codepoint": 61700,
-      "source": "vectors/alert_outline.svg"
+    "alert_triangle": {
+      "codepoint": 61841,
+      "source": "vectors/alert_triangle.svg"
     },
     "archive": {
       "codepoint": 61701,
@@ -51,17 +51,33 @@
       "codepoint": 61705,
       "source": "vectors/arrow-up.svg"
     },
+    "arrow_down_fill": {
+      "codepoint": 61852,
+      "source": "vectors/arrow_down_fill.svg"
+    },
     "arrow_down_large": {
       "codepoint": 61706,
       "source": "vectors/arrow_down_large.svg"
+    },
+    "arrow_left_fill": {
+      "codepoint": 61853,
+      "source": "vectors/arrow_left_fill.svg"
     },
     "arrow_left_large": {
       "codepoint": 61707,
       "source": "vectors/arrow_left_large.svg"
     },
+    "arrow_right_fill": {
+      "codepoint": 61854,
+      "source": "vectors/arrow_right_fill.svg"
+    },
     "arrow_right_large": {
       "codepoint": 61708,
       "source": "vectors/arrow_right_large.svg"
+    },
+    "arrow_up_fill": {
+      "codepoint": 61855,
+      "source": "vectors/arrow_up_fill.svg"
     },
     "arrow_up_large": {
       "codepoint": 61709,
@@ -83,10 +99,6 @@
       "codepoint": 61713,
       "source": "vectors/building.svg"
     },
-    "building_list": {
-      "codepoint": 61714,
-      "source": "vectors/building_list.svg"
-    },
     "buildings": {
       "codepoint": 61715,
       "source": "vectors/buildings.svg"
@@ -99,29 +111,13 @@
       "codepoint": 61717,
       "source": "vectors/camera.svg"
     },
-    "caret-down": {
-      "codepoint": 61718,
-      "source": "vectors/caret-down.svg"
+    "chat": {
+      "codepoint": 61846,
+      "source": "vectors/chat.svg"
     },
-    "caret-left": {
-      "codepoint": 61719,
-      "source": "vectors/caret-left.svg"
-    },
-    "caret-right": {
-      "codepoint": 61720,
-      "source": "vectors/caret-right.svg"
-    },
-    "caret-up": {
-      "codepoint": 61721,
-      "source": "vectors/caret-up.svg"
-    },
-    "chair": {
-      "codepoint": 61722,
-      "source": "vectors/chair.svg"
-    },
-    "chat2": {
-      "codepoint": 61723,
-      "source": "vectors/chat2.svg"
+    "chat_fill": {
+      "codepoint": 61847,
+      "source": "vectors/chat_fill.svg"
     },
     "check": {
       "codepoint": 61724,
@@ -131,6 +127,14 @@
       "codepoint": 61725,
       "source": "vectors/check_outline.svg"
     },
+    "check_success": {
+      "codepoint": 61850,
+      "source": "vectors/check_success.svg"
+    },
+    "check_success_fill": {
+      "codepoint": 61851,
+      "source": "vectors/check_success_fill.svg"
+    },
     "clock": {
       "codepoint": 61727,
       "source": "vectors/clock.svg"
@@ -138,6 +142,10 @@
     "comment": {
       "codepoint": 61728,
       "source": "vectors/comment.svg"
+    },
+    "comment_fill": {
+      "codepoint": 61848,
+      "source": "vectors/comment_fill.svg"
     },
     "cone": {
       "codepoint": 61729,
@@ -147,17 +155,9 @@
       "codepoint": 61730,
       "source": "vectors/contract.svg"
     },
-    "conversation": {
-      "codepoint": 61731,
-      "source": "vectors/conversation.svg"
-    },
     "copy": {
       "codepoint": 61732,
       "source": "vectors/copy.svg"
-    },
-    "crowd": {
-      "codepoint": 61733,
-      "source": "vectors/crowd.svg"
     },
     "dot": {
       "codepoint": 61735,
@@ -183,10 +183,6 @@
       "codepoint": 61740,
       "source": "vectors/export.svg"
     },
-    "facebook": {
-      "codepoint": 61741,
-      "source": "vectors/facebook.svg"
-    },
     "fire": {
       "codepoint": 61742,
       "source": "vectors/fire.svg"
@@ -210,10 +206,6 @@
     "for_sale": {
       "codepoint": 61747,
       "source": "vectors/for_sale.svg"
-    },
-    "forty_two": {
-      "codepoint": 61748,
-      "source": "vectors/forty_two.svg"
     },
     "gauge": {
       "codepoint": 61749,
@@ -247,10 +239,6 @@
       "codepoint": 61761,
       "source": "vectors/info_bubble.svg"
     },
-    "iron_man": {
-      "codepoint": 61762,
-      "source": "vectors/iron_man.svg"
-    },
     "leaf": {
       "codepoint": 61764,
       "source": "vectors/leaf.svg"
@@ -263,21 +251,13 @@
       "codepoint": 61767,
       "source": "vectors/lightning.svg"
     },
-    "line-chat": {
-      "codepoint": 61768,
-      "source": "vectors/line-chat.svg"
-    },
-    "line-clock": {
-      "codepoint": 61769,
-      "source": "vectors/line-clock.svg"
+    "lightning_fill": {
+      "codepoint": 61845,
+      "source": "vectors/lightning_fill.svg"
     },
     "link": {
       "codepoint": 61770,
       "source": "vectors/link.svg"
-    },
-    "linkedin": {
-      "codepoint": 61771,
-      "source": "vectors/linkedin.svg"
     },
     "list": {
       "codepoint": 61772,
@@ -311,13 +291,13 @@
       "codepoint": 61779,
       "source": "vectors/map.svg"
     },
+    "map-pin": {
+      "codepoint": 61843,
+      "source": "vectors/map-pin.svg"
+    },
     "markdown": {
       "codepoint": 61780,
       "source": "vectors/markdown.svg"
-    },
-    "marker": {
-      "codepoint": 61781,
-      "source": "vectors/marker.svg"
     },
     "merge": {
       "codepoint": 61782,
@@ -350,6 +330,10 @@
     "person": {
       "codepoint": 61791,
       "source": "vectors/person.svg"
+    },
+    "person_professional": {
+      "codepoint": 61844,
+      "source": "vectors/person_professional.svg"
     },
     "persons": {
       "codepoint": 61793,
@@ -403,10 +387,6 @@
       "codepoint": 61809,
       "source": "vectors/search.svg"
     },
-    "search_list": {
-      "codepoint": 61810,
-      "source": "vectors/search_list.svg"
-    },
     "shield": {
       "codepoint": 61812,
       "source": "vectors/shield.svg"
@@ -431,14 +411,6 @@
       "codepoint": 61819,
       "source": "vectors/star_half.svg"
     },
-    "star_list": {
-      "codepoint": 61820,
-      "source": "vectors/star_list.svg"
-    },
-    "success": {
-      "codepoint": 61823,
-      "source": "vectors/success.svg"
-    },
     "tag": {
       "codepoint": 61824,
       "source": "vectors/tag.svg"
@@ -454,10 +426,6 @@
     "trash": {
       "codepoint": 61827,
       "source": "vectors/trash.svg"
-    },
-    "twitter": {
-      "codepoint": 61828,
-      "source": "vectors/twitter.svg"
     },
     "upload": {
       "codepoint": 61829,
@@ -479,13 +447,13 @@
       "codepoint": 61834,
       "source": "vectors/x.svg"
     },
-    "zoom-in": {
-      "codepoint": 61837,
-      "source": "vectors/zoom-in.svg"
+    "zoom_in": {
+      "codepoint": 61856,
+      "source": "vectors/zoom_in.svg"
     },
-    "zoom-out": {
-      "codepoint": 61838,
-      "source": "vectors/zoom-out.svg"
+    "zoom_out": {
+      "codepoint": 61857,
+      "source": "vectors/zoom_out.svg"
     }
   },
   "options": {

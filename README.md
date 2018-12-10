@@ -12,8 +12,6 @@
 
 `unicons` is an icon library with helpers that make it quick and easy to include icons via ruby, javascript, or sass
 
-[Preview Icons](http://bemky.github.io/unicons)
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -47,10 +45,10 @@ And make sure to precompile the fonts as well:
 ## Usage
 
 
-###Ruby
+### Ruby
 ``Unicons.entity("icon_name")`` returns an html entitiy for icon (ex. ``&#x58960;``)
 
-###Javascript
+### Javascript
 ``Unicons.entity("icon_name")`` returns an html entitiy for icon (ex. ``&#x58960;``)
 ``Unicons.tag("icon_name", options)`` returns html tag with options (ex. ``<span class="unicon">&#x58960;</span>``)
 ```javascript
@@ -78,7 +76,7 @@ options: {
 ```
 
 
-###Sass
+### Sass
 Outputs sass variable of icon entity for all icons, which is useful for content css attribute (ex. ``$unicon-trash: \\67094;``)
 
 Declares @font-face for ``"fortcons"``
@@ -88,17 +86,20 @@ Declares ``$unicons: "unicons";``
 Declares class for unicons, ``.unicons``, and includes vendor specific prefixes for anti-aliasing.
 
 
-##Browser Support
+## Browser Support
 Supports most browsers and IE9+, if you need older browser support include https://github.com/es-shims/es5-shim (uses indexOf function for Array)
 
 
-##For Development
+## For Development
 
-###Installation
+### Installation
 Check `fontcustom` readme: https://github.com/FontCustom/fontcustom
 
     brew install fontforge ttfautohint
 
-###Compile
+### Compile
     rake compile
 
+### Resources
+https://feathericons.com/
+https://material.io/tools/icons
