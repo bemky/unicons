@@ -103,3 +103,5 @@ Check `fontcustom` readme: https://github.com/FontCustom/fontcustom
 ### Resources
 https://feathericons.com/
 https://material.io/tools/icons
+https://fontawesome.com/
+http://www.zondicons.com/icons.html // CC
