@@ -105,3 +105,4 @@ https://feathericons.com/
 https://material.io/tools/icons
 https://fontawesome.com/
 http://www.zondicons.com/icons.html // CC
+https://www.zwicon.com/cheatsheet.html
