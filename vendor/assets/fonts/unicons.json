@@ -1,6 +1,6 @@
 
 {
-    "filename": "../fonts/unicons_e53160786726fc5549cdc842f978f954",
+    "filename": "../fonts/unicons_fe9613401b071dda3bcdd5c504888976",
     "glyphs": {
         "activity": "f18f",
         "add": "f100",
@@ -50,6 +50,7 @@
         "ellipsis": "f12a",
         "entry": "f12b",
         "export": "f12c",
+        "filter": "f1cb",
         "fire": "f12e",
         "flag": "f130",
         "floorplan": "f131",

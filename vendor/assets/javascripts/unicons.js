@@ -87,6 +87,7 @@ Unicons = (function () {
             'ellipsis': "f12a",
             'entry': "f12b",
             'export': "f12c",
+            'filter': "f1cb",
             'fire': "f12e",
             'flag': "f130",
             'floorplan': "f131",
