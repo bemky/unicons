@@ -95,7 +95,7 @@ Supports most browsers and IE9+, if you need older browser support include https
 ### Installation
 Check `fontcustom` readme: https://github.com/FontCustom/fontcustom
 
-    brew install fontforge ttfautohint
+    brew install fontforge ttfautohint woff2
 
 ### Compile
     rake compile

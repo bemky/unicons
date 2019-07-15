@@ -142,6 +142,7 @@ Unicons = (function () {
             'star': "f179",
             'star_empty': "f17a",
             'star_half': "f17b",
+            'tag': "f1cc",
             'thumbs_down': "f1a8",
             'thumbs_up': "f1a9",
             'trash': "f183",

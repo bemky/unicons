@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "fe9613401b071dda3bcdd5c50488897615fc30981b0d2b9a3c862c2a8408a4ff",
-    "current": "fe9613401b071dda3bcdd5c50488897615fc30981b0d2b9a3c862c2a8408a4ff"
+    "previous": "70cdd251d2387695c13aa921aaedded432d53a15f1e0dea7c5d9414a0937cd6a",
+    "current": "70cdd251d2387695c13aa921aaedded432d53a15f1e0dea7c5d9414a0937cd6a"
   },
   "fonts": [
-    "vendor/assets/fonts/unicons_fe9613401b071dda3bcdd5c504888976.ttf",
-    "vendor/assets/fonts/unicons_fe9613401b071dda3bcdd5c504888976.svg",
-    "vendor/assets/fonts/unicons_fe9613401b071dda3bcdd5c504888976.woff",
-    "vendor/assets/fonts/unicons_fe9613401b071dda3bcdd5c504888976.eot",
-    "vendor/assets/fonts/unicons_fe9613401b071dda3bcdd5c504888976.woff2"
+    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.ttf",
+    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.svg",
+    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.woff",
+    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.eot",
+    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.woff2"
   ],
   "glyphs": {
     "activity": {
@@ -422,6 +422,10 @@
     "star_half": {
       "codepoint": 61819,
       "source": "vectors/star_half.svg"
+    },
+    "tag": {
+      "codepoint": 61900,
+      "source": "vectors/tag.svg"
     },
     "thumbs_down": {
       "codepoint": 61864,
