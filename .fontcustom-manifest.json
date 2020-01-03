@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "70cdd251d2387695c13aa921aaedded432d53a15f1e0dea7c5d9414a0937cd6a",
-    "current": "70cdd251d2387695c13aa921aaedded432d53a15f1e0dea7c5d9414a0937cd6a"
+    "previous": "b2a944dfcf68b71ec598e1eb7fe3ee3d099b1ea5662a92132abf88f8ac6d913c",
+    "current": "b2a944dfcf68b71ec598e1eb7fe3ee3d099b1ea5662a92132abf88f8ac6d913c"
   },
   "fonts": [
-    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.ttf",
-    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.svg",
-    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.woff",
-    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.eot",
-    "vendor/assets/fonts/unicons_70cdd251d2387695c13aa921aaedded4.woff2"
+    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.ttf",
+    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.svg",
+    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.woff",
+    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.eot",
+    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.woff2"
   ],
   "glyphs": {
     "activity": {
@@ -508,11 +508,11 @@
     },
     "no_hash": false,
     "output": {
-      "css": "vendor/assets/stylesheets",
-      "fonts": "vendor/assets/fonts",
+      "css": "lib/assets/stylesheets",
+      "fonts": "lib/assets/fonts",
       "index.html": "docs",
-      "preview": "vendor/assets/fonts",
-      "unicons.js": "vendor/assets/javascripts"
+      "preview": "lib/assets/fonts",
+      "unicons.js": "lib/assets/javascripts"
     },
     "preprocessor_path": null,
     "quiet": false,
@@ -525,10 +525,10 @@
     ]
   },
   "templates": [
-    "vendor/assets/stylesheets/unicons.scss",
-    "vendor/assets/stylesheets/unicons.css",
+    "lib/assets/stylesheets/unicons.scss",
+    "lib/assets/stylesheets/unicons.css",
     "docs/index.html",
-    "vendor/assets/javascripts/unicons.js",
-    "vendor/assets/fonts/unicons.json"
+    "lib/assets/javascripts/unicons.js",
+    "lib/assets/fonts/unicons.json"
   ]
 }
