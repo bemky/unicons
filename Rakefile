@@ -6,5 +6,5 @@ task :compile do
   puts "Cleaning font files"
   puts %x(rm docs/assets/fonts/*)
   puts "Duplicating assets to docs"
-  puts %x(cp -R vendor/assets/ docs/assets/)
+  puts %x(cp -R lib/assets/ docs/assets/)
 end

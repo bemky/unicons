@@ -53,10 +53,10 @@ input:
  templates: templates
 
 output:
- fonts: vendor/assets/fonts
- css: vendor/assets/stylesheets
+ fonts: lib/assets/fonts
+ css: lib/assets/stylesheets
  index.html: docs
- unicons.js: vendor/assets/javascripts
+ unicons.js: lib/assets/javascripts
 # preview: preview/index
 #  my-custom-template.yml: path/to/template/output
 
