@@ -102,8 +102,14 @@ Check `fontcustom` readme: https://github.com/FontCustom/fontcustom
 
 ### Resources
 https://feathericons.com/
+
+
 https://material.io/tools/icons
+
 https://fontawesome.com/
+
 http://www.zondicons.com/icons.html // CC
+
 https://www.zwicon.com/cheatsheet.html
+
 https://github.com/refactoringui/heroicons

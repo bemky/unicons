@@ -59,7 +59,8 @@ sections = {
     tips: %w(info info_bubble question question_bubble),
     reactions: %w(happy neutral sad),
     users: %w(user user_professional user_group user_square user_circle),
-    real_estate: %w(for_sale building buildings price_tag contract floorplan)
+    files: %w(document pdf table image file file_vector file_zip folder),
+    real_estate: %w(for_sale building buildings price_tag contract floorplan) 
 }
 
 sections[:other] = @glyphs.keys.map(&:to_s) - sections.values.flatten

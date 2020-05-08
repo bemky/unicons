@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "b2a944dfcf68b71ec598e1eb7fe3ee3d099b1ea5662a92132abf88f8ac6d913c",
-    "current": "b2a944dfcf68b71ec598e1eb7fe3ee3d099b1ea5662a92132abf88f8ac6d913c"
+    "previous": "f398c9b0f971a5bef7c07cd5e2061a7021124990cc870769c57988dc3188fa00",
+    "current": "f398c9b0f971a5bef7c07cd5e2061a7021124990cc870769c57988dc3188fa00"
   },
   "fonts": [
-    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.ttf",
-    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.svg",
-    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.woff",
-    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.eot",
-    "lib/assets/fonts/unicons_b2a944dfcf68b71ec598e1eb7fe3ee3d.woff2"
+    "lib/assets/fonts/unicons_f398c9b0f971a5bef7c07cd5e2061a70.ttf",
+    "lib/assets/fonts/unicons_f398c9b0f971a5bef7c07cd5e2061a70.svg",
+    "lib/assets/fonts/unicons_f398c9b0f971a5bef7c07cd5e2061a70.woff",
+    "lib/assets/fonts/unicons_f398c9b0f971a5bef7c07cd5e2061a70.eot",
+    "lib/assets/fonts/unicons_f398c9b0f971a5bef7c07cd5e2061a70.woff2"
   ],
   "glyphs": {
     "activity": {
@@ -203,6 +203,18 @@
       "codepoint": 61740,
       "source": "vectors/export.svg"
     },
+    "file": {
+      "codepoint": 61906,
+      "source": "vectors/file.svg"
+    },
+    "file_vector": {
+      "codepoint": 61907,
+      "source": "vectors/file_vector.svg"
+    },
+    "file_zip": {
+      "codepoint": 61908,
+      "source": "vectors/file_zip.svg"
+    },
     "filter": {
       "codepoint": 61899,
       "source": "vectors/filter.svg"
@@ -223,6 +235,10 @@
       "codepoint": 61746,
       "source": "vectors/flyer.svg"
     },
+    "folder": {
+      "codepoint": 61902,
+      "source": "vectors/folder.svg"
+    },
     "for_sale": {
       "codepoint": 61747,
       "source": "vectors/for_sale.svg"
@@ -230,6 +246,10 @@
     "gear": {
       "codepoint": 61750,
       "source": "vectors/gear.svg"
+    },
+    "google_drive": {
+      "codepoint": 61901,
+      "source": "vectors/google_drive.svg"
     },
     "happy": {
       "codepoint": 61756,
@@ -242,6 +262,10 @@
     "history": {
       "codepoint": 61758,
       "source": "vectors/history.svg"
+    },
+    "image": {
+      "codepoint": 61903,
+      "source": "vectors/image.svg"
     },
     "info": {
       "codepoint": 61760,
@@ -339,6 +363,10 @@
       "codepoint": 61869,
       "source": "vectors/paperclip.svg"
     },
+    "pdf": {
+      "codepoint": 61904,
+      "source": "vectors/pdf.svg"
+    },
     "pencil": {
       "codepoint": 61790,
       "source": "vectors/pencil.svg"
@@ -422,6 +450,10 @@
     "star_half": {
       "codepoint": 61819,
       "source": "vectors/star_half.svg"
+    },
+    "table": {
+      "codepoint": 61905,
+      "source": "vectors/table.svg"
     },
     "tag": {
       "codepoint": 61900,
