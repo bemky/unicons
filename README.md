@@ -33,7 +33,9 @@ Include the javascript and css library in your asset pipeline.
 ```
 
 ```javascript
-//= require unicons
+import Uniform from 'uniform';
+// or
+import {tag} from 'uniform';
 ```
 
 And make sure to precompile the fonts as well:
@@ -60,19 +62,11 @@ options: {
 }
 ```
 
-``Unicons.overrides = {}`` map custom icon names
+``Unicons.registerIconName(name, icon)`` to map custom icon names
 ```javascript
-{
-    'expired':      'clock',
-    'processing':   'spinner',
-    'deleted':      'trash',
-    'visible':      'green',
-    'invisible':    'hidden',
-    'leased':       'tag_sale',
-    'account':      'person',
-    'admin':        'forty_two',
-    'tag_sale':     'tag'
-}
+Unicons.registerIconName('expired', 'clock')
+// or
+Unicons.registerIconName('expired', 'f1c4')
 ```
 
 
@@ -101,8 +95,8 @@ Check `fontcustom` readme: https://github.com/FontCustom/fontcustom
     rake compile
 
 ### Resources
-https://feathericons.com/
 
+https://feathericons.com/
 
 https://material.io/tools/icons
 
