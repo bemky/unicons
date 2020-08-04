@@ -51,6 +51,7 @@ if defined?(::Rails)
         Dir.each_child(assets_dir) do |child|
           child = File.join(assets_dir, child)
           Engine.config.assets.path << child if File.directory?(child)
+          Engine.config.assets.precompile += %w(**/*.eot **/*.svg **/*.ttf **/*.woff **/*.woff2)
         end
       end      
     end

@@ -84,7 +84,7 @@ templates:
 # - preview
 #- my-custom-template.yml
 
-#preprocessor_path: ../fonts/
+preprocessor_path: ''
 
 
 # -----------------------------------------------------------------------------

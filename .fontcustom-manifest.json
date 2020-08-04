@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "c68907a54bb4d408f5e91130d8615d5a45216d73f20d7f7b2ebe3817e930eb32",
-    "current": "c68907a54bb4d408f5e91130d8615d5a45216d73f20d7f7b2ebe3817e930eb32"
+    "previous": "f776fcf41154104a486b48179981072fa790f7f922a425fffd8bb15bdce31dce",
+    "current": "f776fcf41154104a486b48179981072fa790f7f922a425fffd8bb15bdce31dce"
   },
   "fonts": [
-    "lib/assets/fonts/unicons_c68907a54bb4d408f5e91130d8615d5a.ttf",
-    "lib/assets/fonts/unicons_c68907a54bb4d408f5e91130d8615d5a.svg",
-    "lib/assets/fonts/unicons_c68907a54bb4d408f5e91130d8615d5a.woff",
-    "lib/assets/fonts/unicons_c68907a54bb4d408f5e91130d8615d5a.eot",
-    "lib/assets/fonts/unicons_c68907a54bb4d408f5e91130d8615d5a.woff2"
+    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.ttf",
+    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.svg",
+    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.woff",
+    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.eot",
+    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.woff2"
   ],
   "glyphs": {
     "activity": {
@@ -546,7 +546,7 @@
       "preview": "lib/assets/fonts",
       "unicons.js": "lib/assets/javascripts"
     },
-    "preprocessor_path": null,
+    "preprocessor_path": "",
     "quiet": false,
     "templates": [
       "unicons.scss",
