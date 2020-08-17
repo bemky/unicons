@@ -33,9 +33,9 @@ Include the javascript and css library in your asset pipeline.
 ```
 
 ```javascript
-import Uniform from 'uniform';
+import Unicons from 'unicons';
 // or
-import {tag} from 'uniform';
+import {tag} from 'unicons';
 ```
 
 And make sure to precompile the fonts as well:
