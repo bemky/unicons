@@ -44,6 +44,7 @@ if defined?(::Rails)
         if Sprockets::VERSION.start_with?('4')
           Engine.config.assets.precompile << 'unicons/manifest.js'
         else
+          Engine.config.assets.precompile += %w(**/*.eot **/*.svg **/*.ttf **/*.woff **/*.woff2)
           Engine.config.assets.precompile << /\.(?:svg)\z/
         end
       elsif defined?(::Condenser)

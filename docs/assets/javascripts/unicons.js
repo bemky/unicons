@@ -134,6 +134,7 @@ export const mapping = {
   'play': "f168",
   'play_tube': "f1b6",
   'price_tag': "f1a2",
+  'printer': "f1d5",
   'question': "f169",
   'question_bubble': "f16a",
   'recover': "f16b",

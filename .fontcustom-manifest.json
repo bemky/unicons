@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "f776fcf41154104a486b48179981072fa790f7f922a425fffd8bb15bdce31dce",
-    "current": "f776fcf41154104a486b48179981072fa790f7f922a425fffd8bb15bdce31dce"
+    "previous": "e87ac26a0fa4edd6b247cde9db62d03b9309faac0ced73c669cd8c185a0f6437",
+    "current": "e87ac26a0fa4edd6b247cde9db62d03b9309faac0ced73c669cd8c185a0f6437"
   },
   "fonts": [
-    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.ttf",
-    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.svg",
-    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.woff",
-    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.eot",
-    "lib/assets/fonts/unicons_f776fcf41154104a486b48179981072f.woff2"
+    "lib/assets/fonts/unicons_e87ac26a0fa4edd6b247cde9db62d03b.ttf",
+    "lib/assets/fonts/unicons_e87ac26a0fa4edd6b247cde9db62d03b.svg",
+    "lib/assets/fonts/unicons_e87ac26a0fa4edd6b247cde9db62d03b.woff",
+    "lib/assets/fonts/unicons_e87ac26a0fa4edd6b247cde9db62d03b.eot",
+    "lib/assets/fonts/unicons_e87ac26a0fa4edd6b247cde9db62d03b.woff2"
   ],
   "glyphs": {
     "activity": {
@@ -398,6 +398,10 @@
     "price_tag": {
       "codepoint": 61858,
       "source": "vectors/price_tag.svg"
+    },
+    "printer": {
+      "codepoint": 61909,
+      "source": "vectors/printer.svg"
     },
     "question": {
       "codepoint": 61801,
